@@ -1,0 +1,49 @@
+section.QuemSomos{
+    padding: 40px 4%;
+    margin-top: 40px;
+    
+}
+
+section.QuemSomos .flex{
+    justify-content: center;
+    gap: 90px;
+}
+
+.img-QuemSomos img {
+    margin-top: 60px;
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px #0000004d;
+
+}
+
+.txt-QuemSomos{
+    margin-top: 60px;
+}
+.txt-QuemSomos h1{
+    color:#00005a ;
+    border-bottom: 3px solid #00005a;
+    width: 250px;
+}
+
+.txt-QuemSomos p{
+   
+    margin-top: 80px;
+
+} 
+
+@media screen and (max-width: 768px) {
+    section.QuemSomos .flex{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .img-QuemSomos img{
+        width: 100%;
+        }
+}
+@media screen and (max-width: 1024px) {
+    section.QuemSomos .flex{
+        flex-direction: column-reverse;
+    }
+}

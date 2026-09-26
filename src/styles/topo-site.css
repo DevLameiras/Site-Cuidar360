@@ -1,0 +1,78 @@
+.topo-site{
+    padding: 250px 4%;
+    background-image: linear-gradient(to right, #fff9ea 30%, rgba(255,255,255,0)75%),  url('../images/image-top.png');
+    background-size: cover;
+    background-position: center;
+   
+
+    
+}
+
+section.topo-site .flex{
+
+    align-items: center;
+    justify-content: left;
+    gap: 90px;
+}
+.topo-site .txt-topo-site{
+    width: 70vh;
+}
+
+.topo-site .txt-topo-site h1 {
+    color: #000000;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-site .txt-topo-site span {
+    color: #00005a;
+    font-style: italic
+    
+}
+
+.topo-site .txt-topo-site p {
+    color: #000000;
+    margin: 40px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+   .topo-site{
+    background-position: 85% center;
+    background-image: url(../images/image-top.png);
+    position: relative;
+
+    
+    
+   }
+
+   .topo-site::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+
+
+    background: #000000c1;
+
+    isolation: isolate;
+   }
+
+   .topo-site .txt-topo-site h1 {
+    color: white;
+   }
+   .topo-site .txt-topo-site span {
+    color: #2b2bbe;
+   }
+
+   .topo-site .txt-topo-site p {
+    color: white;
+   }
+
+   .txt-topo-site{
+    position: relative;
+    z-index: 1;
+   }
+}
+@media screen and (max-width: 1024px) {
+    
+}
